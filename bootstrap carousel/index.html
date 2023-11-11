@@ -11,7 +11,8 @@
 </head>
 
 <body> 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" date-interval="10" data-pause="hover" data-keyboard="true">
+  <!-- authomatically slide with out carousel button  -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" date-interval="10" data-pause="hover">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="..." alt="First slide" style="background-color: red; height: 300px;">
@@ -24,5 +25,31 @@
           </div>
         </div>
       </div>
+
+
+<!-- authomatically slide with carousel button  -->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-color: rgb(0, 238, 255); height: 300px;">
+            <img class="d-block w-100" src="..." alt="First slide">
+          </div>
+          <div class="carousel-item" style="background-color: rgb(240, 79, 79); height: 300px;">
+            <img class="d-block w-100" src="..." alt="Second slide">
+          </div>
+          <div class="carousel-item" style="background-color: rgb(0, 255, 64); height: 300px;">
+            <img class="d-block w-100" src="..." alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>  0996456840
+
+
 </body>
 </html>
